@@ -7,13 +7,15 @@ import { OffresEmploiComponent } from './offres-emploi/offres-emploi.component';
 import {FormsModule} from "@angular/forms";
 import { HeaderComponent } from './header/header.component';
 import { ArticlesComponent } from './articles/articles.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OffresEmploiComponent,
     HeaderComponent,
-    ArticlesComponent
+    ArticlesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
